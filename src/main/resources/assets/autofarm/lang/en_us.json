@@ -11,12 +11,12 @@
   "autofarm.message.no_crops_selected": "§c[AutoFarm]§r No crops selected (Insert)",
   "autofarm.message.no_seed": "§cNo %s",
   "autofarm.message.inventory_full": "§c[AutoFarm]§r Inventory full",
-  "autofarm.message.status": "§a[AutoFarm]§r %s harvested · %s left",
+  "autofarm.message.status": "§a[AutoFarm]§r Harvested %s · %s remaining",
 
   "autofarm.message.loop_started": "§a[AutoFarm]§r Repeat harvesting",
   "autofarm.message.loop_stopped": "§e[AutoFarm]§r Repeat stopped (%s)",
-  "autofarm.message.loop_waiting": "§a[AutoFarm]§r Waiting · %s harvested",
-  "autofarm.message.loop_status": "§a[AutoFarm]§r %s harvested · %s left",
+  "autofarm.message.loop_waiting": "§a[AutoFarm]§r Waiting for crops to grow · harvested %s",
+  "autofarm.message.loop_status": "§a[AutoFarm]§r Repeat harvesting · harvested %s · %s grown",
 
   "autofarm.message.skipped": "§e[AutoFarm]§r Skipped (%2$s, %3$s, %4$s)",
   "autofarm.message.replant_failed": "§c[AutoFarm]§r Replant failed (%s, %s, %s)",
@@ -27,7 +27,7 @@
   "autofarm.message.out_of_seeds": "§e[AutoFarm]§r Out of seeds (%s planted)",
   "autofarm.message.no_seeds_selected": "§c[AutoFarm]§r No seeds selected (Insert)",
   "autofarm.message.no_seeds_in_inventory": "§c[AutoFarm]§r No seeds in inventory",
-  "autofarm.message.plant_status": "§b[AutoFarm]§r %s planted · %s left",
+  "autofarm.message.plant_status": "§b[AutoFarm]§r Planted %s · %s spots left",
 
   "autofarm.config.title": "AutoFarm Settings",
   "autofarm.config.range": "Harvest Range: %s",

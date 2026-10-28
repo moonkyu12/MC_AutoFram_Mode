@@ -11,12 +11,12 @@
   "autofarm.message.no_crops_selected": "§c[AutoFarm]§r 선택된 작물 없음 (Insert)",
   "autofarm.message.no_seed": "§c%s 없음",
   "autofarm.message.inventory_full": "§c[AutoFarm]§r 인벤토리 가득 참",
-  "autofarm.message.status": "§a[AutoFarm]§r %s개 수확 · %s개 남음",
+  "autofarm.message.status": "§a[AutoFarm]§r 수확 %s개 · 남은 작물 %s개",
 
   "autofarm.message.loop_started": "§a[AutoFarm]§r 반복 수확 시작",
   "autofarm.message.loop_stopped": "§e[AutoFarm]§r 반복 수확 중지 (%s개)",
-  "autofarm.message.loop_waiting": "§a[AutoFarm]§r 대기 중 · %s개 수확",
-  "autofarm.message.loop_status": "§a[AutoFarm]§r %s개 수확 · %s개 남음",
+  "autofarm.message.loop_waiting": "§a[AutoFarm]§r 대기 중 · 작물이 자라길 기다리는 중 · 총 %s개 수확",
+  "autofarm.message.loop_status": "§a[AutoFarm]§r 반복 수확 · 총 %s개 수확 · 다 자란 작물 %s개",
 
   "autofarm.message.skipped": "§e[AutoFarm]§r 건너뜀 (%2$s, %3$s, %4$s)",
   "autofarm.message.replant_failed": "§c[AutoFarm]§r 다시 심기 실패 (%s, %s, %s)",
@@ -27,7 +27,7 @@
   "autofarm.message.out_of_seeds": "§e[AutoFarm]§r 씨앗 없음 (%s개 심음)",
   "autofarm.message.no_seeds_selected": "§c[AutoFarm]§r 선택된 씨앗 없음 (Insert)",
   "autofarm.message.no_seeds_in_inventory": "§c[AutoFarm]§r 인벤토리에 씨앗 없음",
-  "autofarm.message.plant_status": "§b[AutoFarm]§r %s개 심음 · %s개 남음",
+  "autofarm.message.plant_status": "§b[AutoFarm]§r 심기 %s개 · 남은 자리 %s개",
 
   "autofarm.config.title": "AutoFarm 설정",
   "autofarm.config.range": "수확 범위: %s블록",
