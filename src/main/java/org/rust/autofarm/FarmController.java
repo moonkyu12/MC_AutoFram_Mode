@@ -210,6 +210,14 @@ public final class FarmController {
         nextGlance = tick + 60 + random.nextInt(120);
         nextWander = tick + 200 + random.nextInt(400);
         rollTarget();
+        ClientLevel level = Minecraft.getInstance().level;
+        if (mode != Mode.LOOP && level != null) {
+            rescan(level, player);
+            if (targets.isEmpty()) {
+                stop(Component.translatable(mode == Mode.PLANT ? "autofarm.message.no_farmland" : "autofarm.message.no_crops"));
+                return;
+            }
+        }
         player.sendSystemMessage(switch (mode) {
             case HARVEST -> Component.translatable("autofarm.message.started", Config.range);
             case LOOP -> Component.translatable("autofarm.message.loop_started", Config.range);
