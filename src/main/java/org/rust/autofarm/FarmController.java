@@ -399,7 +399,7 @@ public final class FarmController {
             boolean waitingForDrops = Config.pickup != Config.PickupMode.OFF && tick - lastHarvestTick < DROP_WAIT_TICKS;
             // only stop after a fresh scan
             if (lastScanTick == tick && !waitingForDrops)
-                stop(Component.translatable("autofarm.message.finished", count));
+                stop(Component.translatable(count == 0 ? "autofarm.message.no_crops" : "autofarm.message.finished", count));
             else
                 scanCooldown = 0;
             return;
@@ -457,7 +457,8 @@ public final class FarmController {
             target = pickTarget(level, player);
         if (target == null) {
             if (lastScanTick == tick)
-                stop(Component.translatable(plantSeeds.isEmpty() ? "autofarm.message.out_of_seeds" : "autofarm.message.plant_finished", count));
+                stop(Component.translatable(plantSeeds.isEmpty() ? "autofarm.message.out_of_seeds"
+                        : count == 0 ? "autofarm.message.no_farmland" : "autofarm.message.plant_finished", count));
             else
                 scanCooldown = 0;
             return;
